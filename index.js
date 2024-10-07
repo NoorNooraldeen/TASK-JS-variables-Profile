@@ -11,30 +11,29 @@
 
 // Part 1 answer 👇🏻 ...
 
+let fullName = " my name is Noor NoorALDeen";
+let yearOfBirth = " 2001";
+let hobby = "my hobbey is drawing";
+let FunFact = " fun fact about me is that i love chocolate";
+const image =
+  "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/";
+console.log(fullName);
+console.log(yearOfBirth);
+console.log(hobby);
+console.log(FunFact);
+console.log(image);
 
+// part 2 starts hereeeee
 
+const FullNameString = "my name is ${noor nooraldeen}";
+const yearOfBirthString = " I am 24 years old  ";
+const hobbyString = " my hobby is drawing";
+const funFactstring = "  i love eating chocolate";
 
-
-
-/**
- * Part 2: String Interpolation
- * Create the following new variables that interpolate
- * the variables defined above into strings.
- *
- * 1. fullNameString      -> assign it to: My name is {fullName}
- * 2. yearOfBirthString   -> assign it to: I am {YOUR_AGE}, and make sure you calculate your age from your year of birth
- * 3. hobbyString         -> assign it to: My hobby is {YOUR_HOBBY}
- * 
- * Uncomment the following lines and start interpolating.
- * You can uncomment a line by removing the // at the start
- */
-
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
-
-
-
+console.log(FullNameString);
+console.log(yearOfBirthString);
+console.log(hobbyString);
+console.log(funFactstring);
 
 /**
  * Part 3: Re-assignment
@@ -45,14 +44,28 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars += 1;
+  console.log(stars);
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars -= 1;
+  console.log(stars);
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars += 2;
+  console.log(stars);
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars -= 2;
+  console.log(stars);
 }
+
+// not sure if we can use a function like
+// function incremantBy2(){
+//stars += 2;
+//}
+// then we call the function
