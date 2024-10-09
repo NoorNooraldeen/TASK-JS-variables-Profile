@@ -13,7 +13,7 @@
 
 let fullName = " my name is Noor NoorALDeen";
 let yearOfBirth = " 2001";
-let hobby = "my hobbey is drawing";
+let hobby = " is drawing";
 let FunFact = " fun fact about me is that i love chocolate";
 const image =
   "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/";
@@ -25,10 +25,10 @@ console.log(image);
 
 // part 2 starts hereeeee
 
-const FullNameString = "my name is ${noor nooraldeen}";
-const yearOfBirthString = " I am 24 years old  ";
-const hobbyString = " my hobby is drawing";
-const funFactstring = "  i love eating chocolate";
+const FullNameString = `my name is ${fullName}`;
+const yearOfBirthString = ` I am ${yearOfBirth} years old  `; // i think we need to do some multiplication her?
+const hobbyString = ` my hobby is ${hobby}`;
+const funFactstring = `fun fact ${FunFact}`;
 
 console.log(FullNameString);
 console.log(yearOfBirthString);
