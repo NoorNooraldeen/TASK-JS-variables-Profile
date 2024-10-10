@@ -12,7 +12,7 @@
 // Part 1 answer 👇🏻 ...
 
 let fullName = " my name is Noor NoorALDeen";
-let yearOfBirth = " 2001";
+let yearOfBirth = 2001;
 let hobby = " is drawing";
 let FunFact = " fun fact about me is that i love chocolate";
 const image =
@@ -22,11 +22,12 @@ console.log(yearOfBirth);
 console.log(hobby);
 console.log(FunFact);
 console.log(image);
+const currentYear = 2024;
 
 // part 2 starts hereeeee
 
 const FullNameString = `my name is ${fullName}`;
-const yearOfBirthString = ` I am ${yearOfBirth} years old  `; // i think we need to do some multiplication her?
+const yearOfBirthString = ` I am ${currentYear - yearOfBirth} years old `; // i think we need to do some multiplication her?
 const hobbyString = ` my hobby is ${hobby}`;
 const funFactstring = `fun fact ${FunFact}`;
 
